@@ -1,0 +1,63 @@
+.carousel{
+    width: 80vh;
+}
+
+.carousel-item .img{
+    width: 300px;
+    height: 300px;
+}
+.moveup{
+    position: relative;
+    top: 10px;
+}
+.movedown{
+    position: relative;
+    left: 0%;
+    top: 10px;
+}
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInRight{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.carousel{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+}
+
+@media (max-width: 1000px){
+    .carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+@media (max-width: 770px){
+    .carousel-item .img{
+        width: 200px;
+        height: 300px;
+    }
+}
+@media (max-width: 450px){
+    .carousel-item .img{
+        width: 150px;
+        height: 200px;
+    }
+    .moveup{
+        display: none;
+    }
+}

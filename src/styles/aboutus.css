@@ -1,0 +1,42 @@
+.aboutus{
+    gap: 30vh;
+    text-align: left;
+    padding: 2rem 0;
+}
+.logoalbi{
+    width: 400px;
+}
+.second-aboutus p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+}
+.second-aboutus h3{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 2rem;
+    color: #212e56;
+    font-weight: bold;
+}
+@media(max-width: 1000px){
+    .aboutus{
+        gap: 15vh;
+        text-align: left;
+        padding: 5vh 5vh;
+    }
+}
+@media(max-width: 850px){
+    .aboutus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        gap: 2vh;
+    }
+    .second-aboutus{
+        padding: 0 4vh;
+    }
+    .logoalbi{
+        width: 300px;
+    }
+}

@@ -1,0 +1,75 @@
+.articles{
+    background-image: url('../../public/newphotos/nicolas-beltran-lopez-dN75r8D9Qks-unsplash.jpg');
+    background-size: cover;
+    /* height: 90vh; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 0;
+    gap: 2vh;   
+}
+.header-articles{
+    text-align: left;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.card{
+    align-items: center;
+}
+.card-img-top{
+    padding-top: 2vh;
+    width: 200px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+.carousel-card{
+  left: 0%;
+}
+.card img{
+  width: 150px;
+  height: 250px;
+  /* height: 10px; */
+}
+.carousel-of-cards{
+  width: 100%;
+}
+/* .carousel-control-prev{
+  left: -10vh;
+}
+.carousel-control-next{
+  left: 34vh;
+} */
+.carousel-of-cards h1{
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+@media (min-width: 1000px) {
+    .normal {
+      display: block;
+    }
+    .carousel-of-cards {
+      display: none;
+    }
+  }
+  
+@media (max-width: 1000px) {
+    .normal {
+      display: none;
+    }
+    .carousel-of-cards{
+      display: block;
+    }
+  }
+  

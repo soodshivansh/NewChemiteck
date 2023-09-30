@@ -1,0 +1,171 @@
+.container-for-products{
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.headerfor h1{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 2rem;
+    color: #212e56;
+    font-weight: bold;
+}
+.floor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.part1{
+    border: solid 3px black;
+    height: 40vh;
+    width: 40vh;
+    overflow: hidden;
+    position: relative;
+}
+.part2{
+    border: solid 3px black;
+    height: 40vh;
+    width: 90vh;
+    overflow: hidden;
+    position: relative ;
+}
+.part12 img,
+.part21 img,
+.part32 img{
+    background-size: cover;
+    opacity: 0.3;
+    height: 50vh;
+    width: 90vh;
+}
+.part11,
+.part22,
+.part31 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.part11 img {
+  height: 25vh;
+  width: 35vh;
+}
+
+.part22 img {
+  height: 35vh;
+  width: 30vh;
+}
+
+.part31 img {
+  height: 30vh;
+  width: 30vh;
+}
+.part2 h1{
+    position: relative ;
+    top: -90%;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #212e56;
+    font-weight: bold;
+}
+@media (max-width: 1000px){
+  .part2{
+    border: solid 3px black;
+    height: 40vh;
+    width: 90%;
+    overflow: hidden;
+    position: relative ;
+  }
+  .part12 img,
+  .part21 img,
+  .part32 img{
+      background-size: cover;
+      opacity: 0.3;
+      height: 40vh;
+      width: 100%;
+  }
+  .part1{
+    border: solid 3px black;
+    height: 40vh;
+    width: 40vh;
+    overflow: hidden;
+    position: relative;
+  }
+}
+@media (max-width: 750px){
+  .floor1{
+    flex-direction:column-reverse;
+  }
+  .floor2{
+    flex-direction:column;
+  }
+  .floor3{
+    flex-direction:column-reverse;
+  }
+  .part2{
+    border: solid 3px black;
+    height: 15vh;
+    width: 90%;
+    overflow: hidden;
+    position: relative ;
+  }
+  .part12 img,
+  .part21 img,
+  .part32 img{
+      background-size: cover;
+      opacity: 0.3;
+      height: 20vh;
+      width: 100%;
+  }
+  .part1{
+    border: solid 3px black;
+    height: 25vh;
+    width: 25vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .part11 img {
+    height: 80%;
+    width: 80%;
+  }
+  
+  .part22 img {
+    height: 80%;
+    width: 80%;
+  }
+  
+  .part31 img {
+    height: 80%;
+    width: 80%;
+  }
+  .part21 h1{
+    position: relative ;
+    top: -100%;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #212e56;
+    font-weight: bold;
+  }
+  .part12 h1{
+    position: relative ;
+    top: -100%;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #212e56;
+    font-weight: bold;
+  }
+  .part32 h1{
+    position: relative ;
+    top: -120%;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #212e56;
+    font-weight: bold;
+  }
+}
+
+
+
+

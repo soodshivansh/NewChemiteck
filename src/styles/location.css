@@ -1,0 +1,37 @@
+.container-lg{
+    /* height: 50vh; */
+    /* margin: 10vh; */
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 3px #212e56; */
+    overflow: hidden;
+}
+.text{
+    padding: 5vh 5vh;
+    width: 50%;
+    height: 40vh;
+    background: #212e56;
+    text-align: left;
+    color: white;
+}
+.location{
+    width: 50%;
+    height: 40vh;
+    overflow: hidden;
+}
+@media (max-width: 750px){
+    .container-lg{
+        flex-direction: column;
+        margin: 0;
+    }
+    .text{
+        width: 100%;
+    }
+    .location{
+        width: 100%;
+        
+    }
+}
+

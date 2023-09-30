@@ -1,0 +1,29 @@
+.navbar-collapse ul li::after{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background:rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.navbar-collapse :hover:after{
+    width: 80%;
+}
+@keyframes slideIntop{
+    from{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.navbar{
+    animation-name: slideIntop;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards; /* Keeps the final state after animation */
+    opacity: 0;
+}
