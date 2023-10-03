@@ -30,7 +30,7 @@ export default function(){
                         <ul>
                             <li><a href="https://phbbvalves.com/" target="_blank">PHBB Valves Pvt. Limited</a></li>
                             <li><a href="#">Engineers Combine</a></li>
-                            <li><a href="https://flowmaxgroup.com/" target="_blank">Flowmax Engineering</a></li>
+                            <li><a href="#" target="_blank">Flowmax Engineering</a></li>
                         </ul>
                     </div>
                     <div className="footer-col">
