@@ -42,6 +42,9 @@
 }
 .part11,
 .part22,
+.part31,
+.part011,
+.part022,
 .part31 {
   display: flex;
   justify-content: center; 
@@ -62,6 +65,21 @@
   height: 30vh;
   width: 30vh;
 }
+.part011 img {
+  height: 17vh;
+  width: 25vh;
+}
+
+.part022 img {
+  height: 20vh;
+  width: 20vh;
+}
+
+.part031 img {
+  height: 20vh;
+  width: 20vh;
+}
+
 .part2 h1{
     position: relative ;
     top: -90%;
@@ -70,8 +88,132 @@
     color: #212e56;
     font-weight: bold;
 }
+.below800{
+  display: none;
+}
+
+
+.cardforproduct{
+  width: 300px;
+  height: 325px;
+  background: #e8e8e8;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  color: #212121;
+  border: 2px solid #212e56;
+  transition: all .5s ease;
+
+  margin-bottom: 2vh;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+.image {
+  width: 300px;
+  height: 70%;
+  background: #212e56;
+  background: #212e56;
+  background: linear-gradient(163deg, #8591b2 0%, #8591b2 50%);
+}
+
+.save {
+  background: #212e56;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.see-more {
+  background: #212e56;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.save, .see-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.save__icon, .see-more__icon {
+  width: 15px;
+  fill: white;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 15px;
+  gap: 3px;
+  height: 30%;
+}
+
+.page {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.title {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.cardforproduct:hover {
+  box-shadow: 5px 5px 10px 0px #212e56;
+}
+
+.cardforproduct:hover .icons {
+  z-index: 1;
+  opacity: 1;
+}
+
+.cardforproduct:hover .image {
+  filter: brightness(.8);
+}
+
+.cardforproduct:hover .title {
+  color: #212e56;
+}
+.below800{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* justify-content: space-between; */
+  /* gap: 5vh; */
+
+}
 @media (max-width: 1000px){
-  .part2{
+  .above800{
+    display: none;
+  }
+  .below800{
+    display: block;
+  }
+  /* .part2{
     border: solid 3px black;
     height: 40vh;
     width: 90%;
@@ -163,7 +305,7 @@
     font-size: 1.5rem;
     color: #212e56;
     font-weight: bold;
-  }
+  } */
 }
 
 
