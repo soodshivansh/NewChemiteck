@@ -89,7 +89,7 @@
     font-weight: bold;
 }
 .below800{
-  display: none;
+  display: hidden;
 }
 
 
@@ -208,7 +208,7 @@
 }
 @media (max-width: 1000px){
   .above800{
-    display: none;
+    display: hidden;
   }
   .below800{
     display: block;
