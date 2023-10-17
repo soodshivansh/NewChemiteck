@@ -45,77 +45,77 @@ export default function(){
                         </div>
 
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/2.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/2.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">Ball Valves-Floaters & Trunion Mounted</div>
                                 <a href="./catalogues/Ball Valves - Floaters & Trunion Mounted.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/12.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/12.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">Engineers Combine</div>
                                 <a href="./catalogues/Product catalogue - Engineers Combine.pdf"  target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/3.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/3.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Double & Tripple Offset Valves</div>
                                 <a href="./catalogues/PHBB Double & Tripple Offset Butterfly Valves.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/4.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/4.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Metal Seated Ball Valves</div>
                                 <a href="./catalogues/PHBB Metal Seated Ball Valves.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/5.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/5.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Multiport Ball Valves</div>
                                 <a href="./catalogues/PHBB Multiport Ball Valves.pdf"  target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/6.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/6.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Penumatic Actuator</div>
                                 <a href="./catalogues/PHBB Penumatic Actuator.pdf"  target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/7.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/7.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB PNEUMATIC ACTUATOR S SERIES</div>
                                 <a href="./catalogues/PHBB PNEUMATIC ACTUATOR S SERIES (SCOTCH & YOKE).pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/8.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/8.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Segmented Ball Valves</div>
                                 <a href="./catalogues/PHBB Segmented Ball Valves.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/9.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/9.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Soft Seated Butterfly Valves</div>
                                 <a href="./catalogues/PHBB Soft Seated Butterfly Valves.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/10.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/10.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB Tank Bottom Ball Valves</div>
                                 <a href="./catalogues/PHBB Tank Bottom Ball Valves.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
                             </div>
                         </div>
                         <div className="grid-item">
-                            <div className="box"><img className="cata-photo" src="./photos/11.png" alt="Product" /></div>
+                            <div className="box"><img className="cata-photo" src="./photos/11.PNG" alt="Product" /></div>
                             <div className="box" style={{width: "60%"}}>
                                 <div className="cata-p">PHBB V-Notch Ball Valves</div>
                                 <a href="./catalogues/PHBB V-Notch Ball Valves.pdf" target="_blank"><button className="btn btn-outline-primary" type="button">Download</button></a>
