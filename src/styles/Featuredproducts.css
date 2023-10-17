@@ -207,13 +207,7 @@
 
 }
 @media (max-width: 1000px){
-  .above800{
-    display: none;
-  }
-  .below800{
-    display: block;
-  }
-  /* .part2{
+  .part2{
     border: solid 3px black;
     height: 40vh;
     width: 90%;
@@ -305,7 +299,7 @@
     font-size: 1.5rem;
     color: #212e56;
     font-weight: bold;
-  } */
+  }
 }
 
 
