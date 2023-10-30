@@ -6,7 +6,6 @@ export default function(){
         <div className = "headerfor">
             <h1>Product Range<hr style={{ height: "0.5vh", backgroundColor: "white" }} /></h1>
         </div>
-        <div className="above800">
             <div className="floor floor1">
                 <div className="part1 part11">
                     <img src="../photos/p2-removebg.png"/>
@@ -34,7 +33,6 @@ export default function(){
                     <h1>STAINLESS STEEL TC ENDS CLAMP FITTINGS AND VALVES</h1>
                 </div>
             </div>
-        </div>
     </div>
     )
 }
